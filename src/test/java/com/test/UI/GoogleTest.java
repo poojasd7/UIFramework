@@ -17,8 +17,9 @@ import reportingLogging.Log;
 
 import uiUtils.BaseTestRemote;
 import uiUtils.BaseTestWebDriver;
+import uiUtils.BaseTestWebDriverManager;
 
-public class GoogleTest extends BaseTestWebDriver {
+public class GoogleTest extends BaseTestWebDriverManager {
 
 	@BeforeClass
 	public void init() {

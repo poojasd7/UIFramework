@@ -9,15 +9,66 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">AI Portal Suite</th></tr>
-<tr><td><a href="#t0">Initial Process</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,104</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Next Process</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,891</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">36,995</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Initial Process</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">171</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Next Process</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">52</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">0</th><th class="num">223</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AI Portal Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Initial Process &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.test.UI.GoogleTest</td><td><a href="#m0">GOOGLE1</a></td><td rowspan="1">1577353483191</td><td rowspan="1">2128</td></tr><tr class="passedeven"><td><a href="#m1">GOOGLE2</a></td><td rowspan="1">1577353495652</td><td rowspan="1">1841</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Next Process &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m2">GOOGLE3</a></td><td rowspan="1">1577353504027</td><td rowspan="1">2163</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AI Portal Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Initial Process &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m0">beforeTestMethod</a></td><td rowspan="1">1577357974892</td><td rowspan="1">31</td></tr><tr><th colspan="4">Initial Process &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m1">beforeTestMethod</a></td><td rowspan="1">1577357974970</td><td rowspan="1">-1577357974970</td></tr><tr><th colspan="4">Initial Process &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.test.UI.GoogleTest</td><td><a href="#m2">GOOGLE1</a></td><td rowspan="1">1577357974944</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">GOOGLE2</a></td><td rowspan="1">1577357974972</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Next Process &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m4">beforeTestMethod</a></td><td rowspan="1">1577357975407</td><td rowspan="1">0</td></tr><tr><th colspan="4">Next Process &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m5">GOOGLE3</a></td><td rowspan="1">1577357975432</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Initial Process</h2><h3 id="m0">com.test.UI.GoogleTest#GOOGLE1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.UI.GoogleTest#GOOGLE2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Next Process</h2><h3 id="m2">com.test.UI.GoogleTest#GOOGLE3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Initial Process</h2><h3 id="m0">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
+	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
+	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
+	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.UI.GoogleTest#GOOGLE1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
+	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
+	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
+	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.UI.GoogleTest#GOOGLE2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
+	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
+	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
+	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Next Process</h2><h3 id="m4">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.github.bonigarcia.wdm.WebDriverManager
+	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:37)
+	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.UI.GoogleTest#GOOGLE3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.github.bonigarcia.wdm.WebDriverManager
+	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:37)
+	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

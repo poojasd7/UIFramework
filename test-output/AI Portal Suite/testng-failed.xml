@@ -18,4 +18,17 @@
       </class> <!-- com.test.UI.GoogleTest -->
     </classes>
   </test> <!-- Initial Process(failed) -->
+  <test thread-count="1" name="Next Process(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.test.UI.GoogleTest">
+        <methods>
+          <include name="GOOGLE3"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- com.test.UI.GoogleTest -->
+    </classes>
+  </test> <!-- Next Process(failed) -->
 </suite> <!-- Failed suite [AI Portal Suite] -->
