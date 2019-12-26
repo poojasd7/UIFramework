@@ -9,7 +9,7 @@ public class OptionsManager {
  
     //Get Chrome Options
     public static ChromeOptions getChromeOptions() {
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\P7111602\\eclipse-workspace\\UITestAutomationFramework\\src\\test\\resources\\chromedriver.exe");//System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\chromedriver.exe");//System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--ignore-certificate-errors");
