@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AI Portal Suite" duration-ms="22717" started-at="2019-12-26T13:44:06 IST" finished-at="2019-12-26T13:44:28 IST">
+    <groups>
+    </groups>
+    <test name="Initial Process" duration-ms="10144" started-at="2019-12-26T13:44:06 IST" finished-at="2019-12-26T13:44:16 IST">
+      <class name="com.test.UI.GoogleTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="init" is-config="true" duration-ms="19" started-at="2019-12-26T13:44:06 IST" finished-at="2019-12-26T13:44:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String)[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="beforeTestMethod" is-config="true" duration-ms="4771" started-at="2019-12-26T13:44:06 IST" finished-at="2019-12-26T13:44:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="GOOGLE1()[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="GOOGLE1" duration-ms="1937" started-at="2019-12-26T13:44:10 IST" finished-at="2019-12-26T13:44:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="tearDown" is-config="true" duration-ms="66" started-at="2019-12-26T13:44:12 IST" finished-at="2019-12-26T13:44:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String)[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="beforeTestMethod" is-config="true" duration-ms="1077" started-at="2019-12-26T13:44:13 IST" finished-at="2019-12-26T13:44:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="GOOGLE2()[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="GOOGLE2" duration-ms="2089" started-at="2019-12-26T13:44:14 IST" finished-at="2019-12-26T13:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UI.GoogleTest@25b485ba]" name="tearDown" is-config="true" duration-ms="87" started-at="2019-12-26T13:44:16 IST" finished-at="2019-12-26T13:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.UI.GoogleTest -->
+    </test> <!-- Initial Process -->
+    <test name="Next Process" duration-ms="10316" started-at="2019-12-26T13:44:18 IST" finished-at="2019-12-26T13:44:28 IST">
+      <class name="com.test.UI.GoogleTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.UI.GoogleTest@5906ebcb]" name="init" is-config="true" duration-ms="0" started-at="2019-12-26T13:44:18 IST" finished-at="2019-12-26T13:44:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String)[pri:0, instance:com.test.UI.GoogleTest@5906ebcb]" name="beforeTestMethod" is-config="true" duration-ms="5500" started-at="2019-12-26T13:44:18 IST" finished-at="2019-12-26T13:44:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="GOOGLE3()[pri:0, instance:com.test.UI.GoogleTest@5906ebcb]" name="GOOGLE3" duration-ms="2231" started-at="2019-12-26T13:44:24 IST" finished-at="2019-12-26T13:44:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UI.GoogleTest@5906ebcb]" name="tearDown" is-config="true" duration-ms="2577" started-at="2019-12-26T13:44:26 IST" finished-at="2019-12-26T13:44:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.UI.GoogleTest -->
+    </test> <!-- Next Process -->
+  </suite> <!-- AI Portal Suite -->
+</testng-results>

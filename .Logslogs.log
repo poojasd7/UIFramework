@@ -1,0 +1,18 @@
+2019-12-19 15:18:10 INFO  Class:22 - Google1 Test Started! Thread Id: 11
+2019-12-19 15:18:11 INFO  Class:22 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:18:11 INFO  Class:22 - Google1 Test Ended! Thread Id: 11
+2019-12-19 15:18:12 INFO  Class:22 - Google2 Test Started! Thread Id: 11
+2019-12-19 15:18:13 INFO  Class:22 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:18:14 INFO  Class:22 - Google2 Test Ended! Thread Id: 11
+2019-12-19 15:18:14 INFO  Class:22 - Google3 Test Started! Thread Id: 12
+2019-12-19 15:18:15 INFO  Class:22 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-19 15:18:15 INFO  Class:22 - Google3 Test Ended! Thread Id: 12
+2019-12-19 15:21:35 INFO  Class:22 - Google1 Test Started! Thread Id: 11
+2019-12-19 15:21:37 INFO  Class:22 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:21:37 INFO  Class:22 - Google1 Test Ended! Thread Id: 11
+2019-12-19 15:21:38 INFO  Class:22 - Google2 Test Started! Thread Id: 11
+2019-12-19 15:21:39 INFO  Class:22 - Google3 Test Started! Thread Id: 12
+2019-12-19 15:21:40 INFO  Class:22 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:21:40 INFO  Class:22 - Google2 Test Ended! Thread Id: 11
+2019-12-19 15:21:41 INFO  Class:22 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-19 15:21:41 INFO  Class:22 - Google3 Test Ended! Thread Id: 12

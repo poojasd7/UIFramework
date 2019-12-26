@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [AI Portal Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.varian.extentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="1" name="Initial Process(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.UI.GoogleTest">
+        <methods>
+          <include name="GOOGLE1"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="GOOGLE2"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- com.test.UI.GoogleTest -->
+    </classes>
+  </test> <!-- Initial Process(failed) -->
+</suite> <!-- Failed suite [AI Portal Suite] -->

@@ -1,0 +1,20 @@
+FROM openjdk:8u191-jre-alpine3.8
+
+WORKDIR /usr/share/seleniumdocker
+
+# Add the project jar & copy dependencies
+ADD  target/selenium-docker.jar selenium-docker.jar
+ADD  target/selenium-docker-tests.jar selenium-docker-tests.jar
+ADD  target/libs libs
+
+# Add the suite xmls
+ADD src/test/resources/testng.xml testng.xml
+
+
+# Command line to execute the test
+# Expects below ennvironment variables
+# BROWSER = chrome / firefox
+# MODULE  = order-module / search-module
+# GRIDHOST = selenium hub hostname / ipaddress
+
+ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DseleniumHubHost=$SELENIUM_HUB -Dbrowser=$BROWSER org.testng.TestNG $MODULE

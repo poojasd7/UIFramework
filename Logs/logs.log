@@ -1,0 +1,91 @@
+2019-12-19 15:23:48 INFO  Class:22 - Google1 Test Started! Thread Id: 11
+2019-12-19 15:23:50 INFO  Class:22 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:23:50 INFO  Class:22 - Google1 Test Ended! Thread Id: 11
+2019-12-19 15:23:51 INFO  Class:22 - Google2 Test Started! Thread Id: 11
+2019-12-19 15:23:52 INFO  Class:22 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:23:52 INFO  Class:22 - Google2 Test Ended! Thread Id: 11
+2019-12-19 15:25:54 INFO  Class:22 - Google1 Test Started! Thread Id: 11
+2019-12-19 15:25:56 INFO  Class:22 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:25:56 INFO  Class:22 - Google1 Test Ended! Thread Id: 11
+2019-12-19 15:25:57 INFO  Class:22 - Google2 Test Started! Thread Id: 11
+2019-12-19 15:25:58 INFO  Class:22 - Google3 Test Started! Thread Id: 12
+2019-12-19 15:25:59 INFO  Class:22 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:25:59 INFO  Class:22 - Google2 Test Ended! Thread Id: 11
+2019-12-19 15:26:00 INFO  Class:22 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-19 15:26:00 ERROR Class:26 - LOG Info:Test Case ETL failing
+2019-12-20 12:58:49 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-20 12:58:53 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-20 12:58:53 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-20 12:58:56 INFO  Class:19 - Google3 Test Started! Thread Id: 12
+2019-12-20 12:58:58 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-20 12:58:58 INFO  Class:19 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-20 12:58:58 ERROR Class:23 - LOG Info:Test Case ETL failing
+2019-12-20 12:59:01 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-20 12:59:01 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-20 14:14:29 INFO  Class:19 - Google1 Test Started! Thread Id: 10
+2019-12-20 14:14:29 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 10
+2019-12-20 14:14:30 INFO  Class:19 - Google1 Test Ended! Thread Id: 10
+2019-12-20 14:14:31 INFO  Class:19 - Google2 Test Started! Thread Id: 10
+2019-12-20 14:14:32 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 10
+2019-12-20 14:14:32 INFO  Class:19 - Google2 Test Ended! Thread Id: 10
+2019-12-20 14:14:34 INFO  Class:19 - Google3 Test Started! Thread Id: 11
+2019-12-20 14:14:36 INFO  Class:19 - Google3 Test's Page title is: Google Thread Id: 11
+2019-12-20 14:14:36 ERROR Class:23 - LOG Info:Test Case ETL failing
+2019-12-20 14:15:41 INFO  Class:19 - Google1 Test Started! Thread Id: 10
+2019-12-20 14:15:43 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 10
+2019-12-20 14:15:43 INFO  Class:19 - Google1 Test Ended! Thread Id: 10
+2019-12-20 14:15:44 INFO  Class:19 - Google2 Test Started! Thread Id: 10
+2019-12-20 14:15:45 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 10
+2019-12-20 14:15:45 INFO  Class:19 - Google2 Test Ended! Thread Id: 10
+2019-12-20 14:15:46 INFO  Class:19 - Google3 Test Started! Thread Id: 11
+2019-12-20 14:15:48 INFO  Class:19 - Google3 Test's Page title is: Google Thread Id: 11
+2019-12-20 14:15:48 ERROR Class:23 - LOG Info:Test Case ETL failing
+2019-12-21 11:15:09 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-21 11:15:12 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-21 11:15:12 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-21 11:15:13 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-21 11:15:15 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-21 11:15:15 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-21 11:18:15 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-21 11:18:18 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-21 11:18:18 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-21 11:18:20 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-21 11:18:22 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-21 11:18:22 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-21 11:18:23 INFO  Class:19 - Google3 Test Started! Thread Id: 12
+2019-12-23 18:15:37 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-23 18:15:39 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-23 18:15:39 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-23 18:16:38 INFO  Class:19 - Google3 Test Started! Thread Id: 12
+2019-12-23 18:16:42 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-23 18:16:44 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-23 18:16:44 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-23 18:16:57 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-23 18:16:58 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-23 18:16:58 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-23 18:20:45 INFO  Class:19 - Google1 Test Started! Thread Id: 12
+2019-12-23 18:20:45 INFO  Class:19 - Google2 Test Started! Thread Id: 12
+2019-12-23 18:20:45 INFO  Class:19 - Google3 Test Started! Thread Id: 12
+2019-12-23 18:20:49 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-23 18:20:51 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-23 18:20:51 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-23 18:21:01 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-23 18:21:03 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-23 18:21:03 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-23 18:21:13 INFO  Class:19 - Google3 Test Started! Thread Id: 11
+2019-12-24 10:26:22 INFO  Class:19 - Google1 Test Started! Thread Id: 12
+2019-12-24 10:26:24 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 12
+2019-12-24 10:26:24 INFO  Class:19 - Google1 Test Ended! Thread Id: 12
+2019-12-24 10:26:30 INFO  Class:19 - Google1 Test Started! Thread Id: 11
+2019-12-24 10:26:33 INFO  Class:19 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-24 10:26:33 INFO  Class:19 - Google1 Test Ended! Thread Id: 11
+2019-12-24 10:26:35 INFO  Class:19 - Google2 Test Started! Thread Id: 12
+2019-12-24 10:26:36 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 12
+2019-12-24 10:26:36 INFO  Class:19 - Google2 Test Ended! Thread Id: 12
+2019-12-24 10:26:45 INFO  Class:19 - Google3 Test Started! Thread Id: 12
+2019-12-24 10:26:47 INFO  Class:19 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-24 10:26:47 ERROR Class:23 - LOG Info:Test Case ETL failing
+2019-12-24 10:26:49 INFO  Class:19 - Google2 Test Started! Thread Id: 11
+2019-12-24 10:26:50 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-24 10:26:50 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
+2019-12-24 10:27:01 INFO  Class:19 - Google3 Test Started! Thread Id: 11

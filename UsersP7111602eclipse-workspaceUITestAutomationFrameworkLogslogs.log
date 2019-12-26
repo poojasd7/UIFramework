@@ -1,0 +1,9 @@
+2019-12-19 15:16:57 INFO  Class:22 - Google1 Test Started! Thread Id: 11
+2019-12-19 15:16:58 INFO  Class:22 - Google1 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:16:59 INFO  Class:22 - Google1 Test Ended! Thread Id: 11
+2019-12-19 15:17:00 INFO  Class:22 - Google2 Test Started! Thread Id: 11
+2019-12-19 15:17:00 INFO  Class:22 - Google3 Test Started! Thread Id: 12
+2019-12-19 15:17:02 INFO  Class:22 - Google2 Test's Page title is: Google Thread Id: 11
+2019-12-19 15:17:02 INFO  Class:22 - Google2 Test Ended! Thread Id: 11
+2019-12-19 15:17:03 INFO  Class:22 - Google3 Test's Page title is: Google Thread Id: 12
+2019-12-19 15:17:03 INFO  Class:22 - Google3 Test Ended! Thread Id: 12
