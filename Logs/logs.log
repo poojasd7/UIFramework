@@ -89,3 +89,6 @@
 2019-12-24 10:26:50 INFO  Class:19 - Google2 Test's Page title is: Google Thread Id: 11
 2019-12-24 10:26:50 INFO  Class:19 - Google2 Test Ended! Thread Id: 11
 2019-12-24 10:27:01 INFO  Class:19 - Google3 Test Started! Thread Id: 11
+2019-12-26 16:53:01 INFO  WebDriverManager:1105 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2019-12-26 16:54:54 INFO  WebDriverManager:1105 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2019-12-26 16:57:32 INFO  WebDriverManager:1105 - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
