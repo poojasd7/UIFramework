@@ -4,7 +4,7 @@
 	 <listeners> <listener class-name="com.varian.extentListeners.ExtentListeners"></listener> 
 		<!-- <listener class-name="reportingLogging.CustomizedEmailableReport"></listener> --> 
 		</listeners> 
-	 <test name="Initial Process">
+	<!--  <test name="Initial Process">
 		<parameter name="browser" value="chrome" />
 	 	<classes>
 			<class name="com.test.UI.GoogleTest">
@@ -27,6 +27,15 @@
 					</include>
 
 				</methods> 
+			</class>
+		</classes>
+	</test> 
+	
+	 -->
+	 <test name="AirBnb Process">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.test.UI.AirBnBTest">
 			</class>
 		</classes>
 	</test> 

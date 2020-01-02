@@ -9,66 +9,40 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">AI Portal Suite</th></tr>
-<tr><td><a href="#t0">Initial Process</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">171</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Next Process</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">52</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">0</th><th class="num">223</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">AirBnb Process</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">62,079</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AI Portal Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Initial Process &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m0">beforeTestMethod</a></td><td rowspan="1">1577357974892</td><td rowspan="1">31</td></tr><tr><th colspan="4">Initial Process &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m1">beforeTestMethod</a></td><td rowspan="1">1577357974970</td><td rowspan="1">-1577357974970</td></tr><tr><th colspan="4">Initial Process &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.test.UI.GoogleTest</td><td><a href="#m2">GOOGLE1</a></td><td rowspan="1">1577357974944</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">GOOGLE2</a></td><td rowspan="1">1577357974972</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Next Process &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m4">beforeTestMethod</a></td><td rowspan="1">1577357975407</td><td rowspan="1">0</td></tr><tr><th colspan="4">Next Process &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.test.UI.GoogleTest</td><td><a href="#m5">GOOGLE3</a></td><td rowspan="1">1577357975432</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AI Portal Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AirBnb Process &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.UI.AirBnBTest</td><td><a href="#m0">AirBnb1</a></td><td rowspan="1">1577957921991</td><td rowspan="1">52295</td></tr></tbody>
 </table>
-<h2>Initial Process</h2><h3 id="m0">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
-	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
-	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
-	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
-	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
+<h2>AirBnb Process</h2><h3 id="m0">com.test.UI.AirBnBTest#AirBnb1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for generalUtils.WaitUtil$1@90764a9 (tried for 40 second(s) with 5000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at generalUtils.WaitUtil.WaitFluently(WaitUtil.java:60)
+	at com.test.UI.AirBnBTest.AirBnb1(AirBnBTest.java:52)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.UI.GoogleTest#GOOGLE1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
-	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
-	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
-	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
-	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test.UI.GoogleTest#GOOGLE2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: org.slf4j.impl.StaticLoggerBinder.getSingleton()Lorg/slf4j/impl/StaticLoggerBinder;
-	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
-	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
-	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
-	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
-	at io.github.bonigarcia.wdm.WebDriverManager.&lt;clinit&gt;(WebDriverManager.java:93)
-	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:34)
-	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Next Process</h2><h3 id="m4">com.test.UI.GoogleTest#beforeTestMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.github.bonigarcia.wdm.WebDriverManager
-	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:37)
-	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.test.UI.GoogleTest#GOOGLE3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.github.bonigarcia.wdm.WebDriverManager
-	at uiUtils.BaseTestWebDriverManager.setup(BaseTestWebDriverManager.java:37)
-	at com.test.UI.GoogleTest.beforeTestMethod(GoogleTest.java:33)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //h3/div[text()=&apos;Recommended destinations&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;INAIRLT542237&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14200, moz:profile: C:\Users\P7111602\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c3b69e3-c0e4-4d85-9fc8-9152e94d660c
+*** Element info: {Using=xpath, value=//h3/div[text()=&apos;Recommended destinations&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at generalUtils.WaitUtil$1.apply(WaitUtil.java:63)
+	at generalUtils.WaitUtil$1.apply(WaitUtil.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 17 more
 ... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

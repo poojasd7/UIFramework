@@ -59,7 +59,7 @@ public class ExtentListeners implements ITestListener {
 		
 		try {
 
-			//ExtentManager.captureScreenshot();
+			ExtentManager.captureScreenshot();
 			testReport.get().fail("<b>" + "<font color=" + "red>" + "Screenshot of failure" + "</font>" + "</b>",
 					MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.screenshotName)
 							.build());
